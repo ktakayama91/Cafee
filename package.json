@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server -a localhost -p 8000 -i app/ -c-1"
+    "start": "http-server -a localhost -p 8000 -i -c-1 -o",
+    "postinstall": "typings install"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,11 @@
   },
   "homepage": "https://github.com/ktakayama91/Cafee#readme",
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.5",
     "http-server": "^0.9.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "phaser-ce": "^2.7.3"
+  }
 }

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "target": "ES5",
+    "sourceMap": true,
+    "noEmitOnError": false,
+    "typeRoots": [
+        "typings/globals"
+    ],
+    "outDir": "dist"
+  },
+  "include": [
+      "app/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "files":[
+      "typings/index.d.ts"
+  ]
+}
