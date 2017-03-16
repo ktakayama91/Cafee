@@ -1,0 +1,24 @@
+{
+  "name": "cafee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 8000 -i app/ -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktakayama91/Cafee.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ktakayama91/Cafee/issues"
+  },
+  "homepage": "https://github.com/ktakayama91/Cafee#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "dependencies": {}
+}
